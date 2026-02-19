@@ -1,0 +1,37 @@
+# === Build output ===
+x64/
+Debug/
+Release/
+*.exe
+*.pdb
+*.obj
+*.idb
+*.ilk
+*.log
+*.tlog
+
+# === Visual Studio ===
+.vs/
+*.user
+*.suo
+*.ncb
+*.sdf
+*.opensdf
+ipch/
+
+# === Word temp files ===
+*.docx
+~$*
+
+# === GLFW unnecessary files (docs + unused lib versions) ===
+External Libraries/GLFW/docs/
+External Libraries/GLFW/lib-mingw-w64/
+External Libraries/GLFW/lib-static-ucrt/
+External Libraries/GLFW/lib-vc2013/
+External Libraries/GLFW/lib-vc2015/
+External Libraries/GLFW/lib-vc2017/
+External Libraries/GLFW/lib-vc2019/
+
+# === GLEW unnecessary files ===
+External Libraries/GLEW/bin/
+External Libraries/GLEW/doc/
